@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: rgb(0,128,0) 5px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+#aboutMe {
+    display: flex;
+    align-items: top;
+    margin-top: 2rem;
+}
+
+#myPhoto {
+    width: 50%;
+}
+
+section h1 {
+    padding-right: 2rem;
+}
+
+.siteImg {
+    width: 25%;
+}
