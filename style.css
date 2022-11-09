@@ -14,6 +14,10 @@ p {
     font-size: 1.25rem;
 }
 
+.hidden {
+    display: none;
+}
+
 main {
     width: 90%;
     margin: 0 auto;
@@ -42,16 +46,29 @@ ul li {
     border-bottom: 2px solid rgb(205, 205, 205);
 }
 
+#welcome {
+    width: 50%;
+}
+
+#myBio {
+    width: 50%;
+    padding-right: 2rem;
+}
+
 #myPhoto {
-    width: 70%;
+    width: 50%;
     border-radius: 5px;
     max-height: 30rem;
     object-fit: cover;
 }
 
-section h1 {
-    padding-right: 10rem;
+.bio p{
+    font-size: 1rem;
 }
+
+/* section h1 {
+    padding-right: 10rem;
+} */
 
 button {
     border: rgb(19, 160, 19) 3px solid;
@@ -68,6 +85,9 @@ button:hover {
 article {
     width: 50%;
     padding: 0rem 2rem 2rem 0rem;
+}
+article p {
+    font-size: 1rem;
 }
 
 .siteImg {
