@@ -43,8 +43,10 @@ ul li {
 }
 
 #myPhoto {
-    width: 50%;
+    width: 70%;
     border-radius: 5px;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 section h1 {
@@ -52,7 +54,7 @@ section h1 {
 }
 
 button {
-    border: rgb(0,128,0) 3px solid;
+    border: rgb(19, 160, 19) 3px solid;
     background: rgba(205, 205, 205,0);
     border-radius: 5px;
     padding: .5rem 1.5rem;
@@ -63,6 +65,19 @@ button:hover {
     background: rgba(0,128,0,.1);
 }
 
+article {
+    width: 50%;
+    padding: 0rem 2rem 2rem 0rem;
+}
+
 .siteImg {
-    width: 25%;
+    width: 100%;
+    border-radius: 2%;
+    max-height: 25rem;
+    object-fit: cover;
+}
+
+.art1 {
+    border-bottom: 2px solid rgb(205, 205, 205);
+    border-right: 2px solid rgb(205, 205, 205);
 }
