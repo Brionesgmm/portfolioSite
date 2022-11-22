@@ -1,6 +1,6 @@
-const aboutMeButton = document.querySelector("#aboutMeButton")
-const welcome = document.querySelector("#welcome")
-const myBio = document.querySelector("#myBio")
+const aboutMeButton = document.querySelector("#aboutMe")
+const welcome = document.querySelector("#welcomeContent")
+const myBio = document.querySelector("#aboutMeContent")
 
 aboutMeButton.addEventListener('click', function(){
     console.log("clicked")

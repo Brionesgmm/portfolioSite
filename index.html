@@ -1,77 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/c98de7a666.js" crossorigin="anonymous"></script>
+	<title>Johnny Briones</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="css/main.css" />
+	<script src="https://kit.fontawesome.com/c98de7a666.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <main>
-        <header>
-            <h3>Making a difference with 1 line of code at a time</h3>
-            <nav>
-                <ul>
-                    <li title="GitHub"><a href=""><i class="fa-brands fa-github"></i></a></li>
-                    <li><a><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a><i class="fa-brands fa-angellist"></i></a></li>
-                    <li><a><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a><i class="fa-solid fa-envelope"></i></a></li>
-                </ul>
-            </nav>
-        </header>
-        <section id="aboutMe">
-            <section id="welcome">
-                <h1>Hi, I'm Johnny, Your Frontend Developer</h1>
-                <p>Ready To Change The World?</p>
-                <button id="aboutMeButton">About me</button>
-            </section>
-            <section id="myBio" class="hidden bio">
-                <h1>About Me</h1>
-                <p>I love to learn new knowledge and skills!</p>
-                <p>
-                    I am currently a property manager for a storage facility, and I am always thinking of ways to
-                    increase efficiency on the property. This comes from my passion to solve problems which is why I
-                    love coding.
-                </p>
-                <p>
-                    My Name is Johnny Briones. I love pushing the limits of what I can do. I am a memory champion and
-                    Grandmaster of Memory. I also won Resna Game Jam by making a game in 6 days without ay knowledge on
-                    game
-                    development. Programming has unlocked a new world of possibilties and another way to make an impact
-                    on
-                    others.
-                </p>
-                <p>
-                    Reach out to me so we can start making an impact!
-                </p>
-                <p></p>
-                <button id="aboutMeButton">About me</button>
-            </section>
-            <img id="myPhoto" src="PikaPanda.jpg" alt="Johnny Briones">
-        </section>
-        <h2>Latest Projects</h2>
-        <section class="articles">
-            <article class="art1">
-                <img class="siteImg" src="RickMortySite.jpg" alt="Rick and Morty Character Website">
-                <h3>Rick and Morty Charaters</h3>
-                <p><b>Javascript, CSS, & HTML</b> - Look up information on your favorite characters from Rick and Morty!
-                </p>
-                <button>Visit</button>
-            </article>
-            <article>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-                <button></button>
-            </article>
-        </section>
-    </main>
-    <script src="main.js"></script>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">Ready to make an <strong>Impact</strong></a>
+					<ul class="icons">
+						<li title="GitHub"><a href="#" class="icon brands"><i class="fa-brands fa-github"></i></a></li>
+						<li title="Linkedin"><a href="#" class="icon brands"><i class="fa-brands fa-linkedin"></i></a>
+						</li>
+						<li title="Angel List"><a href="#" class="icon brands"><i
+									class="fa-brands fa-angellist"></i></a></li>
+						<li title="Twitter"><a href="#" class="icon brands"><i class="fa-brands fa-twitter"></i></a>
+						</li>
+						<li title="Email"><a href="#" class="icon brands"><i class="fa-solid fa-envelope"></i></a></li>
+					</ul>
+				</header>
+
+				<!-- Banner -->
+				<section id="banner">
+					<div class="content" id="welcomeContent">
+						<header>
+							<h1>Hi, I'm Johnny,<br />
+								Your Next Frontend Developer</h1>
+							<p>Ready To Change The World?</p>
+						</header>
+						<ul class="actions">
+							<li><a href="#" class="button big" id="aboutMe">About Me</a></li>
+						</ul>
+						
+					</div>
+					<div id="aboutMeContent" class="hidden">
+						<h1>About Me</h1>
+						<p>I love to learn new knowledge and skills!</p>
+						<p>
+							I am currently a property manager for a storage facility, and I am always thinking of ways
+							to
+							increase efficiency on the property. This comes from my passion to solve problems which is
+							why I
+							love coding.
+						</p>
+						<p>
+							My Name is Johnny Briones. I love pushing the limits of what I can do. I am a memory
+							champion and
+							Grandmaster of Memory. I also won Resna Game Jam by making a game in 6 days without ay
+							knowledge on
+							game
+							development. Programming has unlocked a new world of possibilties and another way to make an
+							impact
+							on
+							others.
+						</p>
+						<p>
+							Reach out to me so we can start making an impact!
+						</p>
+						<ul class="actions">
+							<li><a href="United Pet Care.pdf" class="button big" download="">Resume</a></li>
+						</ul>
+					</div>
+					<span class="image object">
+						<img src="images/pic10.jpg" alt="Johnny Briones headshot" />
+					</span>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Services</h2>
+					</header>
+					<div class="features">
+						<article>
+							<span class="icon fa-gem"></span>
+							<div class="content">
+								<h3>UI/UX Design</h3>
+								<p>User in mind approach making design decisions so products are easy to navigate and are intuitive.</p>
+							</div>
+						</article>
+						<article>
+							<span class="icon solid fa-rocket"></span>
+							<div class="content">
+								<h3>Responsive Design</h3>
+								<p>Applications built to look beautiful and function smoothly on all types of devices with a logical page layout
+									to help users browse efficiently and quickly.
+								</p>
+							</div>
+						</article>
+						<!-- <article>
+							<span class="icon solid fa-paper-plane"></span>
+							<div class="content">
+								<h3>Web App Development</h3>
+								<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+									facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							</div>
+						</article>
+						<article>
+							<span class="icon solid fa-signal"></span>
+							<div class="content">
+								<h3>Sed magna finibus</h3>
+								<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+									facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							</div>
+						</article> -->
+					</div>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Latest Projects</h2>
+					</header>
+					<div class="posts">
+						<article>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+							<h3>Rick and Morty Charaters</h3>
+							<p><b>Javascript, CSS, & HTML</b> - Look up information on your favorite characters from Rick and Morty!</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+							<h3>Nulla amet dolore</h3>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<!-- <article>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<h3>Tempus ullamcorper</h3>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+							<h3>Sed etiam facilis</h3>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+							<h3>Feugiat lorem aenean</h3>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+							<h3>Amet varius aliquam</h3>
+							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+								facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+							<ul class="actions">
+								<li><a href="#" class="button">More</a></li>
+							</ul>
+						</article> -->
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get In Touch</h2>
+					</header>
+					<ul class="contact">
+						<li><a href="mailto:jbrionesgmm@gmail.com"><i class="fa-solid fa-envelope"></i>Jbrionesgmm@gmail.com</a></li>
+						<li><a href="https://github.com/Brionesgmm"><i class="fa-brands fa-github"></i>Github.com/JohnnyBriones</a></li>
+						<li><a href="https://www.linkedin.com/in/johnny-briones-9090b990/"><i class="fa-brands fa-linkedin"></i>Linkedin.com/JohnnyBriones</a></li>
+						<li><a href="https://angel.co/u/juan-briones-1"><i class="fa-brands fa-angellist"></i>Angel.co/JohnnyBriones</a></li>
+
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="main.js"></script>
+
 </body>
 
 </html>
