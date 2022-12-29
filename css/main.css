@@ -3677,3 +3677,7 @@ header i {
   font-size: 1.25rem;
 }
 
+.contact footer {
+  font-size: .66rem;
+  color: #7f888f8e;
+}
